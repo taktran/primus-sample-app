@@ -1,10 +1,14 @@
 # Primus sample app
 
-A website built using [generator-starttter](https://github.com/taktran/generator-starttter).
+A sample app, using [primus](https://github.com/primus/primus), a wrapper for real-time frameworks.
 
 ## Development
 
-Start the server
+Start the primus server
+
+    node bin/server.js
+
+Start the web server
 
     grunt
 
@@ -20,10 +24,3 @@ To run the site using a different livereload port (default is `35729`), use the 
 
     grunt --lrp=35720
 
-## Testing
-
-Uses [karma](http://karma-runner.github.io/) and [jasmine](http://pivotal.github.io/jasmine/).
-
-Karma is run automatically when `grunt` is called. To run it manually
-
-    karma start config/karma.conf.js
